@@ -1390,9 +1390,28 @@ h3 {
     }
 
 .church-mission {
-    grid-template-columns: 1fr;
-    gap: 10px;
-    margin-bottom: 45px;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+
+    margin-bottom: 70px;
+    padding: 40px 60px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 30px;
+
+    text-align: center;
+
+    background:
+        linear-gradient(
+            120deg,
+            var(--dark-navy),
+            var(--navy),
+            var(--dark-teal)
+        );
+    border-radius: 0;
 }
 
 .church-mission div {
