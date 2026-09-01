@@ -651,8 +651,8 @@ h3 {
 
 .pastor-photo img {
     width: 100%;
-    aspect-ratio: 1.14 / 1;
-    object-fit: cover;
+    height: auto;
+    object-fit: contain;
 
     border-radius: 26px;
     box-shadow: var(--shadow);
