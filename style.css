@@ -867,6 +867,81 @@ h3 {
 }
 
 
+
+/* =========================
+   DONATIONS SECTION
+========================= */
+
+.donations {
+    text-align: center;
+    background-color: var(--cream);
+}
+
+.donations-content {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.donations h2 {
+    color: var(--dark-navy);
+    margin-bottom: 20px;
+}
+
+.donations-content > p {
+    color: var(--gray);
+    font-size: 1.05rem;
+}
+
+
+/* PayPal Button */
+
+.paypal-button {
+    display: inline-block;
+
+    margin-top: 25px;
+    padding: 15px 35px;
+
+    background-color: #0070ba;
+    color: white;
+
+    border-radius: 999px;
+
+    text-decoration: none;
+    font-size: 1.05rem;
+    font-weight: 700;
+
+    transition: 0.2s ease;
+}
+
+.paypal-button:hover {
+    transform: translateY(-2px);
+    background-color: #003087;
+}
+
+
+/* Donation Email */
+
+.donation-email {
+    margin-top: 35px;
+}
+
+.donation-email p {
+    margin-bottom: 5px;
+    color: var(--gray);
+}
+
+.donation-email a {
+    color: var(--navy);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.donation-email a:hover {
+    color: var(--teal);
+}
+
+
+
 /* =========================
    FOOTER
 ========================= */
