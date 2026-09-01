@@ -487,6 +487,49 @@ h3 {
 
 
 /* =========================
+   CHURCH MISSION
+========================= */
+
+.church-mission {
+    width: 100%;
+    margin-bottom: 70px;
+    padding: 35px 20px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+    text-align: center;
+
+    background-color: var(--navy);
+    border-radius: 20px;
+}
+
+.church-mission div {
+    padding: 10px;
+}
+
+.church-mission strong {
+    display: block;
+
+    color: var(--white);
+
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.church-mission span {
+    display: block;
+
+    margin-top: 5px;
+
+    color: var(--teal);
+    font-size: 0.95rem;
+}
+
+
+
+/* =========================
    ABOUT FEATURES
 ========================= */
 
@@ -1345,5 +1388,15 @@ h3 {
         font-size: 0.9rem;
         overflow-wrap: anywhere;
     }
+
+.church-mission {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-bottom: 45px;
+}
+
+.church-mission div {
+    padding: 8px;
+}
 
 }
