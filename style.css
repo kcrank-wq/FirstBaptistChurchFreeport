@@ -207,13 +207,14 @@ a {
 
     color: var(--white);
 
-    background:
-        linear-gradient(
-            125deg,
-            rgba(3, 27, 61, 0.98),
-            rgba(6, 45, 99, 0.94),
-            rgba(14, 125, 132, 0.9)
-        );
+    background: 
+        linear-gradient(rgba(3, 27, 61, 0.65),
+                         rgba(3, 27, 61, 0.65)),
+    url("assets/pictures/Church\ background\ photo.png")
+        center/cover no-repeat;
+
+
+
 }
 
 .hero-shape {
