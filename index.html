@@ -567,6 +567,42 @@ We also actively serve our surrounding community in many different ways, includi
 
         </section>
 
+ <!-- ========================
+      INTERACTIVE SERVICE TIMES
+========================= -->
+
+<section class="interactive-service section">
+
+    <div class="section-heading centered">
+
+        <p class="eyebrow">Service Information</p>
+
+        <h2>Join Us This Week</h2>
+
+        <div class="weekly-service-times">
+
+            <p>
+                <strong>Sunday School</strong>
+                <span>9:15 AM</span>
+            </p>
+
+            <p>
+                <strong>Worship Service</strong>
+                <span>10:30 AM</span>
+            </p>
+
+            <p>
+                <strong>Wednesday Service</strong>
+                <span>6:00 PM</span>
+            </p>
+            
+        </div>
+
+    </div>
+
+</section>
+
+
 
         <!-- ========================
              CONTACT SECTION
@@ -630,59 +666,114 @@ We also actively serve our surrounding community in many different ways, includi
 
             </div>
 
+<form class="contact-form"
+      id="contactForm"
+      novalidate>
 
-            <form class="contact-form reveal"
-                  action="mailto:fbcfreeporttexas@gmail.com"
-                  method="post"
-                  enctype="text/plain">
+    <label for="name">
+        Name
+    </label>
 
-                <label for="name">
-                    Name
-                </label>
+    <input id="name"
+           name="name"
+           type="text"
+           autocomplete="name">
 
-                <input id="name"
-                       name="name"
-                       type="text"
-                       autocomplete="name"
-                       required>
-
-
-                <label for="email">
-                    Email
-                </label>
-
-                <input id="email"
-                       name="email"
-                       type="email"
-                       autocomplete="email"
-                       required>
+    <p class="error-message"
+       id="nameError"></p>
 
 
-                <label for="message">
-                    Message or prayer request
-                </label>
+    <label for="email">
+        Email
+    </label>
 
-                <textarea id="message"
-                          name="message"
-                          rows="5"
-                          required></textarea>
+    <input id="email"
+           name="email"
+           type="email"
+           autocomplete="email">
+
+    <p class="error-message"
+       id="emailError"></p>
 
 
-                <button class="button button-primary"
-                        type="submit">
+    <label for="message">
+        Message or Prayer Request
+    </label>
 
-                    Send Message
+    <textarea id="message"
+              name="message"
+              rows="5"></textarea>
 
-                </button>
+    <p class="error-message"
+       id="messageError"></p>
 
-                <p class="form-note">
-                    The Send Message button opens the visitor’s
-                    email application.
-                </p>
 
-            </form>
+    <button class="button button-primary"
+            type="submit">
+
+        Send Message
+
+    </button>
+
+    <p id="formSuccess"
+       class="form-success"></p>
+
+</form>
 
         </section>
+
+<!-- ========================
+     PRAYER REQUEST LIST
+========================= -->
+
+<section class="prayer-section section">
+
+    <div class="prayer-container">
+
+        <p class="eyebrow">
+            Prayer
+        </p>
+
+        <h2>
+            Prayer Requests
+        </h2>
+
+        <p>
+            Add a prayer request to our list.
+        </p>
+
+
+        <label for="prayerInput">
+            Prayer Request
+        </label>
+
+        <input id="prayerInput"
+               type="text"
+               placeholder="Type a prayer request">
+
+
+        <button id="addPrayerButton"
+                class="button button-primary"
+                type="button">
+
+            Add Prayer Request
+
+        </button>
+
+
+        <p id="prayerError"
+           class="error-message"></p>
+
+
+        <ul id="prayerList"
+            class="prayer-list">
+
+        </ul>
+
+    </div>
+
+</section>
+
 
         <!-- ========================
      DONATIONS SECTION

@@ -995,6 +995,180 @@ h3 {
 
 
 /* =========================
+   JAVASCRIPT INTERACTIONS
+========================= */
+
+
+/* =========================
+   WEEKLY SERVICE TIMES
+========================= */
+
+.interactive-service {
+    text-align: center;
+    background-color: var(--cream);
+}
+
+.interactive-service .section-heading {
+    margin-bottom: 0;
+}
+
+.weekly-service-times {
+    max-width: 500px;
+    margin: 30px auto 0;
+}
+
+.weekly-service-times p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0;
+    padding: 16px 5px;
+
+    border-bottom: 1px solid var(--border);
+}
+
+.weekly-service-times strong {
+    color: var(--navy);
+}
+
+.weekly-service-times span {
+    color: var(--dark-teal);
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+/* =========================
+   FORM ERRORS
+========================= */
+
+.error-message {
+    min-height: 20px;
+    margin: 5px 0 10px;
+
+    color: #b42318;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.input-error {
+    border: 2px solid #b42318 !important;
+}
+
+.form-success {
+    margin-top: 15px;
+
+    color: #16794b;
+    font-weight: 700;
+}
+
+
+/* =========================
+   PRAYER REQUEST SECTION
+========================= */
+
+.prayer-section {
+    background-color: var(--cream);
+}
+
+.prayer-container {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.prayer-container h2 {
+    color: var(--dark-navy);
+}
+
+.prayer-container label {
+    display: block;
+
+    margin-bottom: 8px;
+
+    color: var(--navy);
+    font-weight: 700;
+}
+
+#prayerInput {
+    width: 100%;
+
+    padding: 14px 15px;
+    margin-bottom: 15px;
+
+    border: 2px solid #dddddd;
+    border-radius: 12px;
+
+    font: inherit;
+
+    transition:
+        border-color 0.3s ease,
+        background-color 0.3s ease;
+}
+
+
+/* JavaScript adds this class while typing */
+
+#prayerInput.typing {
+    border-color: var(--teal);
+
+    background-color:
+        rgba(37, 174, 181, 0.08);
+}
+
+
+/* PRAYER LIST */
+
+.prayer-list {
+    margin-top: 30px;
+    padding: 0;
+
+    list-style: none;
+}
+
+.prayer-list li {
+    margin-bottom: 12px;
+    padding: 15px 18px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+
+    background-color: white;
+
+    border-left: 5px solid var(--teal);
+    border-radius: 10px;
+}
+
+
+/* REMOVE BUTTON */
+
+.remove-prayer {
+    padding: 7px 13px;
+
+    color: white;
+    background-color: #b42318;
+
+    border: none;
+    border-radius: 8px;
+
+    cursor: pointer;
+}
+
+.remove-prayer:hover {
+    background-color: #8f1c13;
+}
+
+
+
+/* =========================
    SCROLL ANIMATIONS
 ========================= */
 
