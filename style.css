@@ -499,7 +499,7 @@ h3 {
     padding: 20px 7vw;
 
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
 
     align-items: start;
     text-align: center;
@@ -510,19 +510,9 @@ h3 {
 
 .church-mission div {
     padding: 0;
-}
-
-.church-mission div:first-child {
-    text-align: left;
-}
-
-.church-mission div:nth-child(2) {
     text-align: center;
 }
 
-.church-mission div:last-child {
-    text-align: right;
-}
 
 .church-mission strong {
     display: block;
