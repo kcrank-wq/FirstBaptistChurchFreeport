@@ -491,37 +491,44 @@ h3 {
 ========================= */
 
 .church-mission {
-    width: calc(100% + 14vw);
-
-    margin-left: -7vw;
-    margin-right: -7vw;
-    margin-bottom: 20px;
-
-    padding: 15px 7vw;
+    width: 100%;
+    margin: 0 0 35px 0;
+    padding: 20px 0;
 
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
 
+    align-items: start;
     text-align: center;
 
     background: none;
     border: none;
-    border-radius: 0;
-
 }
 
 .church-mission div {
-    padding: 5px;
+    padding: 0;
+}
+
+.church-mission div:first-child {
+    text-align: left;
+}
+
+.church-mission div:nth-child(2) {
+    text-align: center;
+}
+
+.church-mission div:last-child {
+    text-align: right;
 }
 
 .church-mission strong {
     display: block;
-
     color: var(--navy);
     font-size: 1.4rem;
     font-weight: 700;
 }
+
+
 
 
 
