@@ -491,7 +491,7 @@ h3 {
 ========================= */
 
 .church-mission {
-    width: calc(100% + 14vw);
+    width: 100vw;
     margin-left: calc(50% - 50vw);
     margin-bottom: 35px;
 
