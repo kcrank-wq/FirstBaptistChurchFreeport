@@ -493,6 +493,7 @@ h3 {
 .church-mission {
     width: 100vw;
     margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
     margin-bottom: 35px;
 
     padding: 20px 5vw;
