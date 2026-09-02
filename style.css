@@ -492,39 +492,29 @@ h3 {
 
 .church-mission {
     width: 100%;
-    margin-bottom: 70px;
-    padding: 35px 20px;
+    margin-bottom: 60px;
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    align-items: center;
 
     text-align: center;
 
-    background-color: var(--navy);
-    border-radius: 20px;
+    background: none;
+    border-radius: 0;
+    padding: 0;
 }
 
 .church-mission div {
-    padding: 10px;
+    padding: 20px;
 }
 
 .church-mission strong {
     display: block;
 
-    color: var(--white);
-
-    font-size: 1.3rem;
+    color: var(--navy);
+    font-size: 1.4rem;
     font-weight: 700;
-}
-
-.church-mission span {
-    display: block;
-
-    margin-top: 5px;
-
-    color: var(--teal);
-    font-size: 0.95rem;
 }
 
 
@@ -1389,33 +1379,3 @@ h3 {
         overflow-wrap: anywhere;
     }
 
-.church-mission {
-    width: 100vw;
-    margin-left: calc(50% - 50vw);
-    margin-right: calc(50% - 50vw);
-
-    margin-bottom: 70px;
-    padding: 40px 60px;
-
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    align-items: center;
-    gap: 30px;
-
-    text-align: center;
-
-    background:
-        linear-gradient(
-            120deg,
-            var(--dark-navy),
-            var(--navy),
-            var(--dark-teal)
-        );
-    border-radius: 0;
-}
-
-.church-mission div {
-    padding: 8px;
-}
-
-}
