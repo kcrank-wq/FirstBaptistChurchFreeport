@@ -491,15 +491,13 @@ h3 {
 ========================= */
 
 .church-mission {
-    width: 100%;
-    max-width: none;
+    width: calc(100% + 14vw);
 
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+    margin-left: -7vw;
+    margin-right: -7vw;
+    margin-bottom: 20px;
 
-    margin: 0 0 20px 0;
-    padding: 10px 40px;
+    padding: 15px 7vw;
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -510,7 +508,7 @@ h3 {
     background: none;
     border: none;
     border-radius: 0;
-    
+
 }
 
 .church-mission div {
