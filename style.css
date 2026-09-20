@@ -1476,14 +1476,41 @@ h3 {
     font-size: 0.95rem;
 }
 
-
-
 .secretary-section {
     margin-top: 70px;
+    text-align: center;
+}
+
+
+.secretary-section h3 {
+    font-size: 1.8rem;
+    color: var(--navy);
+    margin-bottom: 25px;
 }
 
 
 .secretary-card {
     max-width: 300px;
     margin: 0 auto;
+    text-align: center;
 }
+
+
+.secretary-card img {
+    display: block;
+    width: 70%;
+    max-width: 200px;
+    height: auto;
+    object-fit: contain;
+    margin: 0 auto 15px;
+    border-radius: 15px;
+}
+
+
+.secretary-card h4 {
+    font-size: 1.1rem;
+    color: var(--navy);
+    margin: 5px 0;
+}
+
+
