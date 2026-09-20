@@ -1513,4 +1513,23 @@ h3 {
     margin: 5px 0;
 }
 
+/* PHONE SIZE */
+@media (max-width: 600px) {
+
+
+    .church-mission {
+        grid-template-columns: 1fr;
+        gap: 25px;
+        padding: 25px 20px;
+    }
+
+
+    .church-mission strong {
+        font-size: 1.25rem;
+        text-align: center;
+    }
+}
+
+
+
 
