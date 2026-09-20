@@ -1414,11 +1414,10 @@ h3 {
 
 
 .staff-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 25px;
-    max-width: 1200px;
+    display: block;
+    max-width: 900px;
     margin: 0 auto;
+    text-align: center;
 }
 
 
@@ -1429,11 +1428,11 @@ h3 {
 
 .staff-card img {
     display: block;
-    width: 70%;
-    max-width: 650px;
+    width: 60%;
+    max-width: 600px;
     height: auto;
     object-fit: contain;
-    margin: 0 auto 20px;
+    margin: 0 auto 25px;
     border-radius: 15px;
 }
 
