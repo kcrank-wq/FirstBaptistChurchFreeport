@@ -1545,7 +1545,7 @@ h3 {
 .secretary-card img {
     width: 100%;
     max-width: 280px;
-    height: 210px;
+    height: auto;
     object-fit: cover;
     object-position: center 15%;
     margin: 0 auto 15px;
