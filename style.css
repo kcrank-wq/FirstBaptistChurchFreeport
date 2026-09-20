@@ -1515,20 +1515,20 @@ h3 {
 
 
 .secretary-card {
-    max-width: 300px;
+    max-width: 280px;
     margin: 0 auto;
-    text-align: center;
 }
 
 
 .secretary-card img {
-    display: block;
-    width: 70%;
-    max-width: 200px;
-    height: auto;
-    object-fit: contain;
+    width: 100%;
+    max-width: 280px;
+    height: 210px;
+    object-fit: cover;
+    object-position: center 25%;
     margin: 0 auto 15px;
     border-radius: 15px;
+
 }
 
 
