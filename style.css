@@ -1405,6 +1405,28 @@ h3 {
 
 }
 
+/* PHONE SIZE */
+@media (max-width: 600px) {
+
+ .secretary-card {
+    max-width: 280px;
+    margin: 0 auto;
+}
+
+
+.secretary-card img {
+    width: 100%;
+    max-width: 280px;
+    height: 210px;
+    object-fit: cover;
+    object-position: center 15%;
+    margin: 0 auto 15px;
+    border-radius: 15px;
+
+}
+
+}
+
 /* =========================
    STAFF SECTION
 ========================= */
