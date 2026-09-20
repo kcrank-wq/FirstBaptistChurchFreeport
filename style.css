@@ -491,21 +491,21 @@ h3 {
 ========================= */
 
 .church-mission {
-    width: 100vw;
-    margin-left: calc(50% - 50vw);
-    margin-bottom: 35px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto 35px;
+    padding: 20px 30px;
 
-    padding: 20px 5vw;
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    align-items: center;
 
-    align-items: start;
-    text-align: center;
 
     background: none;
     border: none;
 }
+
 
 .church-mission div {
     padding: 0;
