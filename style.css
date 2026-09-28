@@ -1616,6 +1616,35 @@ h3 {
 }
 
 
+/* CHURCH QR CODE */
+
+
+.qr-code {
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+.qr-code h3 {
+    margin-bottom: 15px;
+}
+
+
+.qr-code img {
+    width: 180px;
+    height: 180px;
+    display: block;
+    margin: 0 auto 15px;
+}
+
+
+.qr-code p {
+    font-size: 14px;
+}
+
+
+
+
 
 
 
