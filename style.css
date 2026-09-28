@@ -1410,13 +1410,13 @@ h3 {
 @media (max-width: 600px) {
 
  .secretary-card {
-    max-width: 180px;
+    max-width: 150px;
     margin: 0 auto;
 }
 
 
 .secretary-card img {
-    width: 180px;
+    width: 150px;
     height: 225px;
     object-fit: cover;
     object-position: center 15%;
