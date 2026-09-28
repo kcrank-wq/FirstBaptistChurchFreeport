@@ -1428,6 +1428,13 @@ h3 {
         border-radius: 15px;
     }
 }
+@media screen and (max-width: 600px) {
+    .qr-code img {
+        width: 140px !important;
+        height: 140px !important;
+        max-width: 140px !important;
+    }
+}
 
 
 
@@ -1642,6 +1649,15 @@ h3 {
     font-size: 14px;
 }
 
+/* QR CODE SIZE */
+.qr-code img {
+    width: 160px !important;
+    height: 160px !important;
+    max-width: 160px !important;
+    object-fit: contain;
+    display: block;
+    margin: 15px auto;
+}
 
 
 
