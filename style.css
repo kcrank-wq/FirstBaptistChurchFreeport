@@ -1405,28 +1405,31 @@ h3 {
 
 }
 
-/* PHONE SIZE */
+/* PHONE SIZE - FINANCIAL SECRETARY */
+@media screen and (max-width: 600px) {
 
-@media (max-width: 600px) {
 
- .secretary-card {
-    max-width: 150px;
-    margin: 0 auto;
+    .secretary-card {
+        width: 180px !important;
+        max-width: 180px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+
+    .secretary-card img {
+        width: 180px !important;
+        max-width: 180px !important;
+        height: 230px !important;
+        object-fit: cover !important;
+        object-position: center 15% !important;
+        display: block !important;
+        margin: 0 auto 12px !important;
+        border-radius: 15px;
+    }
 }
 
 
-.secretary-card img {
-    width: 150px;
-    height: 225px;
-    object-fit: cover;
-    object-position: center 15%;
-    display: block;
-    margin: 0 auto 15px;
-    border-radius: 15px;
-
-}
-
-}
 
 /* =========================
    STAFF SECTION
