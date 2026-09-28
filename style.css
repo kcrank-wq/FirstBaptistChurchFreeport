@@ -1637,26 +1637,20 @@ h3 {
 }
 
 
-.qr-code img {
-    width: 180px;
-    height: 180px;
-    display: block;
-    margin: 0 auto 15px;
-}
-
 
 .qr-code p {
     font-size: 14px;
 }
 
-/* QR CODE SIZE */
+/* QR CODE SIZE - DESKTOP */
 .qr-code img {
     width: 160px !important;
     height: 160px !important;
     max-width: 160px !important;
-    object-fit: contain;
-    display: block;
-    margin: 15px auto;
+    min-width: 160px !important;
+    object-fit: contain !important;
+    display: block !important;
+    margin: 15px auto !important;
 }
 
 
